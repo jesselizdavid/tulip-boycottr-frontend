@@ -30,3 +30,8 @@
 .map-container {
   height: 65vh;
 }
+
+.chart {
+  height: 500px;
+  width: 500px;
+}

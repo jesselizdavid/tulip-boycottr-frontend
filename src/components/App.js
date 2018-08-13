@@ -8,6 +8,7 @@ import "../App.css";
 import 'bulma/css/bulma.css'
 import { toggleModal } from '../actions/boycottModalActions'
 import { connect } from 'react-redux';
+import BoycottChart from './Chart';
 
 class App extends Component {
 
@@ -21,6 +22,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to Boycottr</h1>
         </header>
+        <BoycottChart />
         <Button buttonText="Add Boycott" onClickHandler={() => toggleModalAction(!modalIsActive)}/>
         <BoycottModal 
           isActive={modalIsActive}

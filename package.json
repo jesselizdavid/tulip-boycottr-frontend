@@ -4,8 +4,10 @@
   "private": true,
   "dependencies": {
     "bulma": "^0.7.1",
+    "chart.js": "^2.7.2",
     "google-maps-react": "^2.0.2",
     "react": "^16.3.2",
+    "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.3.2",
     "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
